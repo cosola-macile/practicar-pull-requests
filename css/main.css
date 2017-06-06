@@ -196,3 +196,12 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+footer{
+	margin-top: 100%;
+	background-color: pink;
+	text-align: center;
+	height: 70px;
+	padding-top: 15px ;}
+
+ 
