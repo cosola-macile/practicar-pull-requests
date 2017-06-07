@@ -70,6 +70,7 @@ body {
 	text-align: center;
 	padding: 20px;
 }
+
 a {  
     text-decoration: none;  
 }  	  
@@ -107,21 +108,6 @@ a {
     margin: auto;
 }
 	  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
@@ -206,6 +192,7 @@ a {
         text-decoration: underline;
     }
 
+
     a[href]:after {
         content: " (" attr(href) ")";
     }
@@ -251,5 +238,3 @@ a {
     }
 }
 
-
- 
