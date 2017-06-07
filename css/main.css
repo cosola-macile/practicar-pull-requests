@@ -58,16 +58,14 @@ textarea {
 
 a {
 	text-decoration: none;
-}
-
-li {
-	display: inline;
-	margin-left: 170px;
-	font-size: 30px;
-}
+}	
 
 .menu-li{
-	float: left;
+	display: inline-block;
+	font-size: 30px;
+	margin-right: 20px;
+	float: right;
+
 }
 
 .menu{
@@ -75,9 +73,20 @@ li {
 	height: 75px; 
 	background-color: #FFEFD5;
 	padding-top: 8px;
+	text-align: right;
 }
 
+ul{
+	margin: 0px;
+	padding: 0px;
+}
 
+.menu-li-home{
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+	display: inline-block;
+}
 
 /* ==========================================================================
    Media Queries
