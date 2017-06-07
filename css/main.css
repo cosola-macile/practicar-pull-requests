@@ -71,12 +71,9 @@ body {
 	padding: 20px;
 }
 
-
-
-
 a {
 	text-decoration: none;
-}	
+}
 
 .menu-li {
 	display: inline-block;
@@ -88,7 +85,7 @@ a {
 
 .menu {
 	width: 100%;
-	height: 75px; 
+	height: 75px;
 	background-color: #FFEFD5;
 	padding-top: 8px;
 	text-align: right;
@@ -108,7 +105,7 @@ ul {
    Media Queries
    ========================================================================== */
 
-   
+
 @media only screen and (min-width: 35em) {
 
 }
@@ -232,4 +229,3 @@ ul {
         page-break-after: avoid;
     }
 }
-
