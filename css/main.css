@@ -60,7 +60,7 @@ a {
 	text-decoration: none;
 }	
 
-.menu-li{
+.menu-li {
 	display: inline-block;
 	font-size: 30px;
 	margin-right: 20px;
@@ -68,7 +68,7 @@ a {
 
 }
 
-.menu{
+.menu {
 	width: 100%;
 	height: 75px; 
 	background-color: #FFEFD5;
@@ -76,16 +76,14 @@ a {
 	text-align: right;
 }
 
-ul{
+ul {
 	margin: 0px;
 	padding: 0px;
 }
 
-.menu-li-home{
+.menu-li-home {
 	float: left;
 	margin-left: 20px;
-	font-size: 30px;
-	display: inline-block;
 }
 
 /* ==========================================================================
