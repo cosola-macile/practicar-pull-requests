@@ -102,18 +102,49 @@ a {
  	display: inline-block;  
 } 
  
+a {
+    text-decoration: none;
+}
+
+.menu-li{
+ 	display: inline-block;
+ 	font-size: 30px;
+ 	margin-right: 20px;
+ 	float: right; }
+
+
+.menu{
+ 	width: 100%;
+ 	height: 75px;
+ 	background-color: #FFEFD5;
+ 	padding-top: 8px;
+ 	text-align: right;
+ }
+
+ ul{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+.menu-li-home {
+ 	float: left;
+ 	margin-left: 20px;
+ 	font-size: 30px;
+ 	display: inline-block;
+}
+
 .content {
     width: 400px;
     height: 400px;
     margin: auto;
 }
-	  
+
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-   
+
 @media only screen and (min-width: 35em) {
 
 }
@@ -237,4 +268,3 @@ a {
         page-break-after: avoid;
     }
 }
-
