@@ -51,6 +51,15 @@ textarea {
     padding: 0.2em 0;
 }
 
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
 
 /* ==========================================================================
    Author's custom styles
@@ -69,11 +78,6 @@ body {
 	background-color: pink;
 	text-align: center;
 	padding: 20px;
-}
-
-
-a {
-	text-decoration: none;
 }	
 
 .menu-li {
@@ -90,11 +94,6 @@ a {
 	background-color: #FFEFD5;
 	padding-top: 8px;
 	text-align: right;
-}
-
-ul {
-	margin: 0px;
-	padding: 0px;
 }
 
 .menu-li-home {
