@@ -57,23 +57,24 @@ textarea {
    ========================================================================== */
 body {
 	display: flex;
-	min-height: 100vh;
+	min-height: 100vh; 		/*View height*/
 	flex-direction: column;
 }
 
 .wrapper {
-	flex: 1;
+	flex: 1;	/*Ocupa el espacio libre de la pagina*/
 }
 
 .footer {
 	background-color: pink;
 	text-align: center;
-	padding: 20px;
+	padding: 20px;	 /* Centralizando contenido del footer*/
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none; /* Eliminar el estilo default de los links*/
 }
+
 
 .menu-li {
 	display: inline-block;
