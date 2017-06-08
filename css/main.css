@@ -56,52 +56,52 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .wrapper {
-	flex: 1;
+    flex: 1;
 }
 
 .footer {
-	background-color: pink;
-	text-align: center;
-	padding: 20px;
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
 }
 
 
 
 
 a {
-	text-decoration: none;
-}	
+    text-decoration: none;
+}   
 
-.menu-li {
-	display: inline-block;
-	font-size: 30px;
-	margin-right: 20px;
-	float: right;
+.menu-items {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    float: right;
 
 }
 
 .menu {
-	width: 100%;
-	height: 75px; 
-	background-color: #FFEFD5;
-	padding-top: 8px;
-	text-align: right;
+    width: 100%;
+    height: 75px; 
+    background-color: #FFEFD5;
+    padding-top: 8px;
+    text-align: right;
 }
 
 ul {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.menu-li-home {
-	float: left;
-	margin-left: 20px;
+.menu-home {
+    float: left;
+    margin-left: 20px;
     display: inline-block;
     font-size: 30px;
 }
@@ -116,21 +116,15 @@ ul {
 
 }
 
-.container {  
+.text {  
     display: flex;  
-    align-items: center;  
     height: 250px; 
     width: 100%;   
     justify-content: center;
-    margin-left: auto;  
-    margin-right: auto;
-	flex-direction: column;
+    flex-direction: column;  
+	align-items: center; 
 }
 
-.centro {
-    display: flex;
-    align-self: center;
-}
 
 /* ==========================================================================
    Media Queries
