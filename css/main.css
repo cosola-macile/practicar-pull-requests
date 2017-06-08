@@ -69,7 +69,6 @@ ul {
 
 /* ==========================================================================
 
-
    Author's custom styles
 
 ========================================================================== */
@@ -83,8 +82,7 @@ ul {
 	padding: 20px;	 /* Centralizando contenido del footer*/
 }
 
-<<<<<<< HEAD
-.menu-li {
+.menu-items {
     display: inline-block;
     font-size: 30px;
     margin-right: 20px;
@@ -119,32 +117,21 @@ ul {
     padding: 0;
 }
 
-.container {
+.text {
     display: flex;
-    align-items: center;
     height: 250px;
     width: 100%;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-	flex-direction: column;
+    flex-direction: column;
+	align-items: center;
 }
 
-.centro {
-    display: flex;
-    align-self: center;
-}
 
 /* ==========================================================================
 
    Media Queries
 
-<<<<<<< HEAD
 ========================================================================== */
-=======
-
-@media only screen and (min-width: 35em) {
->>>>>>> Agreagando Header a la Pagina.
 
 @media only screen and (min-width: 35em) {}
 
