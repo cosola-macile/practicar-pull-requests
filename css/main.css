@@ -83,6 +83,7 @@ ul {
 	padding: 20px;	 /* Centralizando contenido del footer*/
 }
 
+<<<<<<< HEAD
 .menu-li {
     display: inline-block;
     font-size: 30px;
@@ -109,7 +110,6 @@ ul {
     margin: auto;
 }
 
-
 .header {
     color: white;
     background-color: grey;
@@ -117,7 +117,6 @@ ul {
     height: 250px;
     margin: 0;
     padding: 0;
-
 }
 
 .container {
@@ -140,7 +139,12 @@ ul {
 
    Media Queries
 
+<<<<<<< HEAD
 ========================================================================== */
+=======
+
+@media only screen and (min-width: 35em) {
+>>>>>>> Agreagando Header a la Pagina.
 
 @media only screen and (min-width: 35em) {}
 
