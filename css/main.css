@@ -65,7 +65,7 @@ body {
 	flex: 1;
 }
 
-footer {
+.footer {
 	background-color: pink;
 	text-align: center;
 	padding: 20px;
