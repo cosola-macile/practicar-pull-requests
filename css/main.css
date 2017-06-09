@@ -44,6 +44,21 @@ textarea {
     resize: vertical;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
@@ -51,24 +66,10 @@ textarea {
     padding: 0.2em 0;
 }
 
-ul {
-	margin: 0px;
-	padding: 0px;
-}
-
-a {
-	text-decoration: none;
-}
-
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-}
 
 .wrapper {
 	flex: 1;
