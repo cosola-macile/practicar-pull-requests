@@ -71,7 +71,7 @@ ul {
 
    Author's custom styles
 
-   ========================================================================== */
+========================================================================== */
 .wrapper {
 	flex: 1;	/*Ocupa el espacio libre de la pagina*/
 }
@@ -82,7 +82,7 @@ ul {
 	padding: 20px;	 /* Centralizando contenido del footer*/
 }
 
-.menu-li {
+.menu-items {
     display: inline-block;
     font-size: 30px;
     margin-right: 20px;
@@ -108,11 +108,30 @@ ul {
     margin: auto;
 }
 
+.header {
+    color: white;
+    background-color: grey;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+	align-items: center;
+}
+
+
 /* ==========================================================================
 
    Media Queries
 
-   ========================================================================== */
+========================================================================== */
 
 @media only screen and (min-width: 35em) {}
 
@@ -194,6 +213,7 @@ ul {
         text-decoration: underline;
     }
 
+
     a[href]:after {
         content: " (" attr(href) ")";
     }
@@ -238,3 +258,4 @@ ul {
         page-break-after: avoid;
     }
 }
+
