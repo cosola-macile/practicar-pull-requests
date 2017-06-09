@@ -6,6 +6,16 @@ html {
     line-height: 1.4;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -44,6 +54,11 @@ textarea {
     resize: vertical;
 }
 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
@@ -57,13 +72,6 @@ textarea {
    Author's custom styles
 
    ========================================================================== */
-
-body {
-	display: flex;
-	min-height: 100vh; 		/*View height*/
-	flex-direction: column;
-}
-
 .wrapper {
 	flex: 1;	/*Ocupa el espacio libre de la pagina*/
 }
@@ -72,10 +80,6 @@ body {
 	background-color: pink;
 	text-align: center;
 	padding: 20px;	 /* Centralizando contenido del footer*/
-}
-
-a {
-	text-decoration: none; /* Eliminar el estilo default de los links*/
 }
 
 .menu-li {
@@ -91,11 +95,6 @@ a {
     background-color: #ffefd5;
     padding-top: 8px;
     text-align: right;
-}
-
-ul {
-    margin: 0px;
-    padding: 0px;
 }
 
 .menu-li-home {
